@@ -8,7 +8,6 @@
 section{
     width: 100%;
     height: 100vh;
-    background-image: url(image/bg.png);
     background-size: cover;
     background-position: center;
 }
@@ -23,12 +22,6 @@ section nav{
     position: fixed;
     left: 0;
     z-index: 100;
-}
-
-section nav .logo img{
-    width: 100px;
-    cursor: pointer;
-    margin: 8px 0;
 }
 
 section nav ul{
@@ -86,26 +79,6 @@ section .main p{
     top: 125px;
     left: 25px;
 }
-
-section .main .main_tag .main_btn{
-    background: #089da1;
-    padding: 10px 20px;
-    position: relative;
-    top: 200px;
-    left: 25px;
-    color: #fff;
-    text-decoration: none;
-}
-
-section .main .main_img img{
-    width: 780px;
-    position: relative;
-    top: 90px;
-    left: 20px;
-}
-
-
-
 
 /*services*/
 
