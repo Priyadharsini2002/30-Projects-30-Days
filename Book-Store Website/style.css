@@ -8,7 +8,7 @@
 section{
     width: 100%;
     height: 100vh;
-    background-image: url(image/bg.png);
+    
     background-size: cover;
     background-position: center;
 }
@@ -18,11 +18,12 @@ section nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 10px #089da1;
+    box-shadow: 100px  0px 100px #06a3f2;
     background: #fff;
     position: fixed;
     left: 0;
     z-index: 100;
+    padding-top: 20px;
 }
 
 section nav .logo img{
@@ -46,7 +47,7 @@ section nav li a{
 }
 
 section nav li a:hover{
-    color: #089da1;
+    color: #06a3f2;
 }
 
 section nav .social_icon i{
@@ -55,7 +56,7 @@ section nav .social_icon i{
 }
 
 section nav .social_icon i:hover{
-    color: #089da1;
+    color: #06a3f2;
     cursor: pointer;
 }
 
@@ -75,7 +76,7 @@ section .main h1{
 }
 
 section .main h1 span{
-    color: #089da1;
+    color: #06a3f2;
 }
 
 section .main p{
@@ -88,7 +89,7 @@ section .main p{
 }
 
 section .main .main_tag .main_btn{
-    background: #089da1;
+    background: #06a3f2;
     padding: 10px 20px;
     position: relative;
     top: 200px;
@@ -103,6 +104,8 @@ section .main .main_img img{
     top: 90px;
     left: 20px;
 }
+
+
 
 
 /*services*/
@@ -125,12 +128,12 @@ section .main .main_img img{
     text-align: center;
     width: 310px;
     height: auto;
-    box-shadow: 0 0 8px #089da1;
+    box-shadow: 0 0 8px #06a3f2;
     padding: 15px 10px;
 }
 
 .services .services_box .services_card i{
-    color: #089da1;
+    color: #06a3f2;
     font-size: 45px;
     margin-bottom: 15px;
     cursor: pointer;
@@ -173,7 +176,7 @@ section .main .main_img img{
 
 .about .about_tag .about_btn{
     padding: 10px 20px;
-    background: #089da1;
+    background: #06a3f2;
     color: #fff;
     text-decoration: none;
     position: relative;
@@ -218,7 +221,7 @@ section .main .main_img img{
 }
 
 .featured_boks .featured_book_box .featured_book_card:hover{
-    box-shadow: 0 0 5px #089da1;
+    box-shadow: 0 0 5px #06a3f2;
 }
 
 .featured_boks .featured_book_box .featured_book_card .featurde_book_img img{
@@ -234,7 +237,7 @@ section .main .main_img img{
 }
 
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .categories{
-    color: #089da1;
+    color: #06a3f2;
     margin-top: 8px;
 }
 
@@ -251,7 +254,7 @@ section .main .main_img img{
 
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn{
     padding: 8px 20px;
-    border: 2px solid #089da1;
+    border: 2px solid #06a3f2;
     text-decoration: none;
     color: #000;
 }
@@ -266,7 +269,7 @@ section .main .main_img img{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #089da1;
+    background: #06a3f2;
     border-radius: 10px;
 }
 
@@ -277,7 +280,7 @@ section .main .main_img img{
 
 .arrivals{
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     margin-bottom: 35px;
 }
 
@@ -305,7 +308,7 @@ section .main .main_img img{
 }
 
 .arrivals .arrivals_box .arrivals_card:hover{
-    box-shadow: 0 0 5px #089da1;
+    box-shadow: 0 0 5px #06a3f2;
 }
 
 .arrivals .arrivals_box .arrivals_card .arrivals_image{
@@ -336,13 +339,13 @@ section .main .main_img img{
 }
 
 .arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_icon{
-    color: #089da1;
+    color: #06a3f2;
     margin-bottom: 18px;
 }
 
 .arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_btn{
     padding: 8px 20px;
-    border: 2px solid #089da1;
+    border: 2px solid #06a3f2;
     text-decoration: none;
     color: #000;
 }
@@ -375,7 +378,7 @@ section .main .main_img img{
 .reviews .review_box .review_card{
     width: 400px;
     height: 320px;
-    box-shadow: 0 0 8px #089da1;
+    box-shadow: 0 0 8px #06a3f2;
     padding: 15px;
     margin: 0 12px;
 }
@@ -404,6 +407,155 @@ section .main .main_img img{
     font-size: 16px;
     float: left;
     margin-top: 20px;
-    color: #089da1;
+    color: #06a3f2;
     padding: 0 1px;
+}
+
+
+/*Blog*/
+
+.blog{
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+}
+
+.blog h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.blog .blog_box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blog .blog_box .blog_card{
+    margin: 0 auto;
+    width: 450px;
+    height: auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.blog .blog_box .blog_card .blog_img{
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.blog .blog_box .blog_card .blog_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog .blog_box .blog_card .blog_tag{
+    padding: 20px;
+}
+
+.blog .blog_box .blog_card .blog_tag h2{
+    color: #06a3f2;
+}
+
+.blog .blog_box .blog_card .blog_tag p{
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    background: #eaeaea;
+}
+
+footer .footer_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer_main .tag{
+    margin: 10px 0;
+}
+
+footer .footer_main .tag img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+footer .footer_main .tag p{
+    width: 250px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+footer .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: #000;
+}
+
+footer .footer_main .tag a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+footer .footer_main .tag i{
+    margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i{
+    margin: 0 5px;
+}
+
+footer .footer_main .tag .search_bar{
+    width: 230px;
+    height: 30px;
+    background: rgba(202,202,202);
+    border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+
+footer .footer_main .tag .search_bar button{
+    padding: 7px 15px;
+    background: #06a3f2;
+    border: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #000;
+}
+
+footer .end span{
+    color: #06a3f2;
+    margin-left: 10px;
 }
