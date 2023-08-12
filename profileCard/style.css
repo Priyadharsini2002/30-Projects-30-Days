@@ -24,10 +24,12 @@ body {
   );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
 }
+
 h1{
   margin: 0;
   padding-left: 30px;
 }
+
 h2{
   margin: 0;
   padding-left: 50px;
