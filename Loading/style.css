@@ -1,0 +1,25 @@
+body{
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.loader{
+ z-index: 2;
+ position: fixed;
+ height: 40px;
+ width: 40px;
+ box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);   
+}
+.loader-text{
+    top: 52vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
