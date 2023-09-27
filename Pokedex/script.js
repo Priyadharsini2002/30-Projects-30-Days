@@ -54,8 +54,7 @@ const createPokemonCard = (pokemon) => {
         <h3 class="name">${name}</h3>
         <small class="type">Type: <span>${type}</span> </small>
     </div>
-    `
-
+    
     pokemonEl.innerHTML = pokemonInnerHTML
 
     poke_container.appendChild(pokemonEl)
