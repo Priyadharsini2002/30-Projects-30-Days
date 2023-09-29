@@ -19,4 +19,5 @@ function doTheTrick(theClickedOne) {
             cheap.checked = false
         }
     }
+    
 }
