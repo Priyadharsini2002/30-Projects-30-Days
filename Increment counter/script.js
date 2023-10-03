@@ -18,4 +18,5 @@ counters.forEach(counter => {
     }
 
     updateCounter()
+    
 })
