@@ -1,6 +1,7 @@
 const button = document.getElementById('button')
 const toasts = document.getElementById('toasts')
 
+
 const messages = [
     'Message One',
     'Message Two',
@@ -24,6 +25,7 @@ function createNotification(message = null, type = null) {
     setTimeout(() => {
         notif.remove()
     }, 3000)
+    
 }
 
 function getRandomMessage() {
